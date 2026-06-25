@@ -129,10 +129,6 @@ a:focus-visible {
   background: var(--surface-alt);
 }
 
-#mission {
-  background: #f3fbf6;
-}
-
 .surface-accent {
   background: linear-gradient(180deg, rgba(217, 251, 232, 0.65), rgba(255, 255, 255, 1));
 }
@@ -354,33 +350,6 @@ h3 {
   background: transparent;
   border: 0;
   box-shadow: none;
-}
-
-.hero-art {
-  position: absolute;
-  border-radius: 999px;
-  filter: blur(2px);
-}
-
-.hero-art-one {
-  inset: 40px auto auto 28px;
-  width: 180px;
-  height: 180px;
-  background: rgba(134, 239, 172, 0.24);
-}
-
-.hero-art-two {
-  inset: auto 36px 58px auto;
-  width: 220px;
-  height: 220px;
-  background: rgba(56, 161, 105, 0.16);
-}
-
-.hero-art-three {
-  inset: 120px 90px auto auto;
-  width: 120px;
-  height: 120px;
-  background: rgba(217, 251, 232, 0.75);
 }
 
 .map-embed,
